@@ -3,7 +3,7 @@ a = 1.2
 showText = false;
 
 function preload() {
-  mySvg = loadImage('assets/background.svg');
+  mySvg = loadImage('assets/background.png');
 }
 
 function fähre() {
