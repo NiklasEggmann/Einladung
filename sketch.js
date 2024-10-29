@@ -3,7 +3,7 @@ a = 1.2
 showText = false;
 
 function preload() {
-  mySvg = loadImage("./assets/background.svg");
+  mySvg = loadImage('./assets/background.svg');
 }
 
 function fähre() {
@@ -93,7 +93,7 @@ function setup() {
   textAlign(CENTER, CENTER);
   textFont('Courier New')
   textStyle(BOLD);
-
+  pixelDensity(displayDensity())
 
   textSize(32);
   for (let i = 0; i < 50; i++) {
